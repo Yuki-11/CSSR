@@ -25,7 +25,7 @@ We have proposed a method for high-resolution crack segmentation for low-resolut
 
 2. In order to optimize the deep learning model for defect segmentation, we proposed a loss function **Boundary Combo loss** that simultaneously optimizes the global and local structures of cracks. This loss function enables both detection of thin and difficult-to-detect cracks and detection of fine crack boundaries.
 
-The experimental results show that the proposed method is superior to the conventional method, and quantitatively\*<sup>1</sup> and qualitatively, the segmentation is as precise as when using high-resolution images.
+**The experimental results show that the proposed method is superior to the conventional method, and quantitatively\*<sup>1</sup> and qualitatively, the segmentation is as precise as when using high-resolution images.**
 
  \*<sup>1</sup>; In terms of IoU, the proposed method achieves **97.3% of the IoU of the high-resolution image input**.
 
