@@ -1,0 +1,16 @@
+SOLVER:
+  SEG_LOSS_FUNC: "Boundary_GDice"
+  WARMUP_FACTOR : 1.0
+  BATCH_SIZE: 6
+  LR: 1e-5
+  NORM_SR_OUTPUT : "instance"
+  TASK_LOSS_WEIGHT: 0.1
+  MAX_ITER: 100000
+
+MODEL:
+  SCALE_FACTOR: 4
+  DETECTOR_TYPE: "u-net16"
+  UP_SAMPLE_METHOD: "pixel_shuffle"
+  OPTIMIZER: 'Adam'
+
+OUTPUT_DIR: 'output/exp1/20210827_B-GDice_0.1'
