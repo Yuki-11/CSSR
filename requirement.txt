@@ -1,0 +1,11 @@
+torch
+torchvision
+numpy
+opencv-python
+Pillow
+tensorboard
+yacs
+tqdm
+wandb
+scikit-image
+pandas

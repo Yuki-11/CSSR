@@ -1,0 +1,21 @@
+SOLVER:
+  SEG_LOSS_FUNC: "BoundaryCombo" # Boundary
+  BCELOSS_WEIGHT: [1, 1]
+  WB_AND_D_WEIGHT: [1, 1]
+  WARMUP_FACTOR : 1.0
+  BATCH_SIZE: 6
+  LR: 1e-5
+  NORM_SR_OUTPUT : "instance"
+  TASK_LOSS_WEIGHT: 0.3
+  MAX_ITER: 100000
+  SEG_PRETRAIN_ITER: 500 
+
+MODEL:
+  SCALE_FACTOR: 4
+  DETECTOR_TYPE: "u-net16"
+  UP_SAMPLE_METHOD: "pixel_shuffle"
+  OPTIMIZER: 'Adam'
+  SR_SEG_INV: True
+  JOINT_LEARNING: False
+  
+OUTPUT_DIR: 'output/exp2/20210825_SS-SR'
