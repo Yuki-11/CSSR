@@ -78,7 +78,7 @@ def train(args, cfg):
     do_train(args, cfg, model, optimizer, scheduler, train_loader, eval_loader)
 
 def main():
-    parser = argparse.ArgumentParser(description='Scale Selection for IPAS2020')
+    parser = argparse.ArgumentParser(description='Crack Segmentation with Super Resolution(CSSR)')
     parser.add_argument('--config_file', type=str, default='./config/configs_train.yaml', metavar='FILE', help='path to config file')
     parser.add_argument('--output_dirname', type=str, default='', help='')
     parser.add_argument('--num_workers', type=int, default=2, help='')

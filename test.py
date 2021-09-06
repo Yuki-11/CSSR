@@ -48,7 +48,7 @@ def test(args, cfg):
         inference_for_ss(args, cfg, model, test_loader)
 
 def main():
-    parser = argparse.ArgumentParser(description='Crack Segmentaiton with Super Resolution')
+    parser = argparse.ArgumentParser(description='Crack Segmentation with Super Resolution(CSSR))
     parser.add_argument('test_dir', type=str, default=None)
     parser.add_argument('iteration', type=int, default=None)
 
