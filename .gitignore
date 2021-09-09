@@ -2,3 +2,4 @@
 /output
 /env/
 __pycache__/
+/wandb

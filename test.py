@@ -48,7 +48,7 @@ def test(args, cfg):
         inference_for_ss(args, cfg, model, test_loader)
 
 def main():
-    parser = argparse.ArgumentParser(description='Crack Segmentation with Super Resolution(CSSR))
+    parser = argparse.ArgumentParser(description='Crack Segmentation with Super Resolution(CSSR)')
     parser.add_argument('test_dir', type=str, default=None)
     parser.add_argument('iteration', type=int, default=None)
 
@@ -57,7 +57,8 @@ def main():
     parser.add_argument('--num_workers', type=int, default=8)
     parser.add_argument('--batch_size', type=int, default=16)
     parser.add_argument('--num_gpus', type=int, default=6)
-    parser.add_argument('--test_aiu', type=bool, default=True)
+    parser.add_argument('--test_aiu', type=bool, default=False)
+    #parser.add_argument('--test_aiu', action=argparse.BooleanOptionalAction)
     parser.add_argument('--trained_model', type=str, default=None)
     parser.add_argument('--wandb_flag', type=bool, default=True)
     parser.add_argument('--wandb_prj_name', type=str, default="CSSR_kyoken_test_blur")

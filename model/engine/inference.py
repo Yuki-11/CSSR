@@ -14,6 +14,7 @@ def inference_for_ss(args, cfg, model, test_loader):
     """
     aiu_scoures : test_case(=len(test_loader)) x threshold_case(=99)
     """
+    global aiu_scores
     fnames = []
     max_iter = len(test_loader)
 
@@ -30,7 +31,6 @@ def inference_for_ss(args, cfg, model, test_loader):
     if args.test_aiu:
         thresholds = [i*0.01 for i in range(1, 100)]
         iou_mode = "AIU"
-        
     else:
         thresholds = [0.5]
         iou_mode = "IoU"
