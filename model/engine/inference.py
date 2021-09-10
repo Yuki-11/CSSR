@@ -14,12 +14,12 @@ def inference_for_ss(args, cfg, model, test_loader):
     """
     aiu_scoures : test_case(=len(test_loader)) x threshold_case(=99)
     """
-    global aiu_scores
     fnames = []
     max_iter = len(test_loader)
 
     psnr_scores = np.array([])
     ssim_scores = np.array([])
+    aiu_scores = np.array([[]])
 
     psnr = PSNR()
     ssim = SSIM()
@@ -81,7 +81,7 @@ def inference_for_ss(args, cfg, model, test_loader):
                 # print(iou(segment_preds_bi, masks.to("cuda")).shape)
                 iou_scores = np.copy(iou(segment_preds_bi, masks.to("cuda"))[:, np.newaxis])
 
-        if 'aiu_scores' in locals():
+        if aiu_scores.size != 0:
             aiu_scores = np.append(aiu_scores, iou_scores, axis=0)
         else:
             aiu_scores = np.copy(iou_scores)
