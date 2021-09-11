@@ -15,4 +15,4 @@ MODEL:
   OPTIMIZER: 'Adam'
   JOINT_LEARNING: False
 
-OUTPUT_DIR: 'output/exp2/20210903_SS_in_HR'
+OUTPUT_DIR: 'output/exp2/SS_in_HR'
