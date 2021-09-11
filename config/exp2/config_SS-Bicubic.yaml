@@ -18,4 +18,4 @@ MODEL:
   JOINT_LEARNING: False
   SR_SEG_INV: True
 
-OUTPUT_DIR: 'output/exp2/20210827_SS-Bicubic'
+OUTPUT_DIR: 'output/exp2/SS-Bicubic'
