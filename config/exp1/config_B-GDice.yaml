@@ -13,4 +13,4 @@ MODEL:
   UP_SAMPLE_METHOD: "pixel_shuffle"
   OPTIMIZER: 'Adam'
 
-OUTPUT_DIR: 'output/exp1/20210827_B-GDice_0.1'
+OUTPUT_DIR: 'output/exp1/B-GDice_0.1'
