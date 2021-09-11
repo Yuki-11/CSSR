@@ -17,4 +17,4 @@ MODEL:
   OPTIMIZER: 'Adam'
   JOINT_LEARNING: False
 
-OUTPUT_DIR: 'output/exp2/20210827_Bicubic-SS'
+OUTPUT_DIR: 'output/exp2/Bicubic-SS'
