@@ -15,4 +15,4 @@ MODEL:
   UP_SAMPLE_METHOD: "pixel_shuffle"
   OPTIMIZER: 'Adam'
 
-OUTPUT_DIR: 'output/exp1/20210827_GBC2_0.1'
+OUTPUT_DIR: 'output/exp1/GBC2_0.1'
