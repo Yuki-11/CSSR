@@ -18,4 +18,4 @@ MODEL:
   SR_SEG_INV: True
   JOINT_LEARNING: False
   
-OUTPUT_DIR: 'output/exp2/20210825_SS-SR'
+OUTPUT_DIR: 'output/exp2/SS-SR'
