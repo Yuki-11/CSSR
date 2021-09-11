@@ -16,4 +16,4 @@ MODEL:
   OPTIMIZER: 'Adam'
   SR_SEG_INV: True
   
-OUTPUT_DIR: 'output/exp2/20210824_CSSR_SS-SR'
+OUTPUT_DIR: 'output/exp2/CSSR_SS-SR'
