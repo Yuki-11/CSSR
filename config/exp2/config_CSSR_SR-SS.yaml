@@ -15,4 +15,4 @@ MODEL:
   UP_SAMPLE_METHOD: "pixel_shuffle"
   OPTIMIZER: 'Adam'
 
-OUTPUT_DIR: 'output/exp2/20210824_CSSR_SR-SS'
+OUTPUT_DIR: 'output/exp2/CSSR_SR-SS'
