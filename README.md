@@ -76,6 +76,13 @@ We have proposed a method for high-resolution crack segmentation for low-resolut
    cd $CSSR_ROOT
    python train.py --config_file <CONFIG FILE>
    ```
+   
+   If you want to resume learning, you can do it with the following command.
+   ```shell
+   cd $CSSR_ROOT
+   python train.py --config_file output/<OUTPUT DIRECTORY (OUTPUT_DIR at config.yaml)>/config.yaml --resume_iter <
+Saved iteration number>
+   ```
 
 5. Test:
    ```shell
