@@ -19,11 +19,11 @@ in [MVA 2021](http://www.mva-org.jp/mva2021/) (Oral Presentation, [Best Practica
 
 ## What's this?
 
-We have proposed a method for high-resolution crack segmentation for low-resolution images. This approach enables automatic detection of cracks even when the image resolution of the crack area is reduced due to an environment in which the area where defects may occur must be photographed from a distance (e.g., An environment in which a drone that targets a high-altitude chimney wall must take a distance in order to fly safely.). The proposed method is composed of the following two approaches.
+We have proposed a method for high-resolution crack segmentation for low-resolution images. This approach enables automatic detection of cracks even when the image resolution of the crack area is reduced due to an environment in which the area where cracks may occur must be photographed from a distance (e.g., An environment in which a drone that targets a high-altitude chimney wall must take a distance in order to fly safely.). The proposed method is composed of the following two approaches.
 
-1. Deep learning based super resolution to increase the resolution of low-resolution images. Segmentation of this super-resolution image enables defect detection. In addition, we proposed **CSSR (Crack Segmentation with Super Resolution)** using end-to-end joint learning to **optimize the super-resolution for the crack segmentation process**.
+1. Deep learning based super resolution to increase the resolution of low-resolution images. This super-resolution image enables delicate crack segmentation. In addition, we proposed **CSSR (Crack Segmentation with Super Resolution)** using end-to-end joint learning to **optimize the super-resolution for the crack segmentation process**.
 
-2. In order to optimize the deep learning model for defect segmentation, we proposed a loss function **Boundary Combo loss** that simultaneously optimizes the global and local structures of cracks. This loss function enables both detection of thin and difficult-to-detect cracks and detection of fine crack boundaries.
+2. In order to optimize the deep learning model for  segmentation, we proposed a loss function **Boundary Combo loss** that simultaneously optimizes the global and local structures of cracks. This loss function enables both detection of thin and difficult-to-detect cracks and detection of fine crack boundaries.
 
 **The experimental results show that the proposed method is superior to the conventional method, and quantitatively\*<sup>1</sup> and qualitatively, the segmentation is as precise as when using high-resolution images.**
 
