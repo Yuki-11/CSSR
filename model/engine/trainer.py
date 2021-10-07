@@ -65,20 +65,13 @@ def do_train(args, cfg, model, optimizer, scheduler, train_loader, eval_loader):
         # fname = [f'hr{iteration}_{i}.png' for i in range(6)]
         # save_img(cfg.OUTPUT_DIR, sr_targets, fname) # debug
 
-        # fname = [f'kernel{iteration}_{i}.png' for i in range(6)]
-
-        #     sr_pred.save(fpath)
-
         # fname = [f'seg{iteration}_{i}.png' for i in range(6)]
-
         # for batch_num in range(segment_targets.size()[0]):
         #     # print(segment_targets.size())
-        #     sr_pred = transforms.ToPILImage(mode='L')(segment_targets[batch_num])
-                
-        #     os.makedirs(os.path.dirname(cfg.OUTPUT_DIR+f"/images/"), exist_ok=True)
+        #     ss_pred = transforms.ToPILImage(mode='L')(segment_targets[batch_num])
+        #     os.makedirs(os.path.dirname(cfg.OUTPUT_DIR+f"/masks/"), exist_ok=True)
         #     fpath = os.path.join(cfg.OUTPUT_DIR+f"/images/", f"{fname[batch_num]}")
-
-        #     sr_pred.save(fpath)
+        #     ss_pred.save(fpath)
 
         # =======================================================================
 
