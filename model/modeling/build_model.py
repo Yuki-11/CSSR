@@ -271,17 +271,12 @@ def normalize(sr_images, mean, std, norm_method):
     if norm_method == "all":
         _mean = torch.empty(sr_images.shape).to('cuda')
         _std = torch.empty(sr_images.shape).to('cuda')
-
-        _mean[:, 0, :, :] = mean[0]
-        _mean[:, 1, :, :] = mean[1]
-        _mean[:, 2, :, :] = mean[2]
-
-        _std[:, 0, :, :] = std[0]
-        _std[:, 1, :, :] = std[1]
-        _std[:, 2, :, :] = std[2]
-
-        sr_images_norm = sr_images - _mean
-        sr_images_norm = sr_images / _std
+        num_channels = 3
+        
+        for i in range(num_channels):
+            _mean[:, i, :, :] = self.mean[i]
+            _std[:, i, :, :] = self.std[i]
+        sr_images_norm = (sr_images - _mean) / _std
     
     elif norm_method == "instance":
         norm = nn.InstanceNorm2d(3)
