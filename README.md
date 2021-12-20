@@ -15,7 +15,8 @@ in [MVA 2021](http://www.mva-org.jp/mva2021/) (Oral Presentation, [Best Practica
 <img src='imgs/arc.png'/>
 
 ## News
-* July 27, 2021 -> We received the [Best Practical Paper Award](http://www.mva-org.jp/archives.BestPracticalPaperAward.php) at [MVA 2021](http://www.mva-org.jp/mva2021/)
+* July 27, 2021 -> We received the [Best Practical Paper Award](http://www.mva-org.jp/archives.BestPracticalPaperAward.php) 
+🏆 at [MVA 2021](http://www.mva-org.jp/mva2021/)!
 
 ## What's this?
 
