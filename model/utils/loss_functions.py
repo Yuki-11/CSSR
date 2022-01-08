@@ -6,6 +6,7 @@ import numpy as np
 
 from model.utils.boundary_loss import BoundaryLoss
 
+# proposed
 class BoundaryComboLoss(nn.Module):  
     def __init__(self, per_epoch, smooth=10 ** -8, reduction='none', pos_weight=[1, 1], loss_weight=[1, 1], alpha_min=0.01, decrease_ratio=1):
         super(BoundaryComboLoss, self).__init__()
@@ -47,7 +48,7 @@ class BoundaryComboLoss(nn.Module):
         else:
             raise Exception('Unexpected reduction {}'.format(self.reduction))
 
-
+# proposed
 class GeneralizedBoundaryComboLoss(nn.Module):  
     def __init__(self, per_epoch, smooth=10 ** -8, reduction='none', pos_weight=[1, 1], loss_weight=[1, 1], alpha_min=0.01, decrease_ratio=1):
         super(GeneralizedBoundaryComboLoss, self).__init__()
@@ -90,6 +91,7 @@ class GeneralizedBoundaryComboLoss(nn.Module):
             raise Exception('Unexpected reduction {}'.format(self.reduction))
 
 
+# The best combination of H. Kervadec et al. 
 class Boundary_GDiceLoss(nn.Module):  
     def __init__(self, per_epoch, resume_iter=0, smooth=10 ** -8, reduction='none', alpha_min=0.01, decrease_ratio=1):
         super(Boundary_GDiceLoss, self).__init__()
