@@ -88,7 +88,6 @@ def main():
     parser.add_argument('--num_gpus', type=int, default=6)
     parser.add_argument('--mixed_precision', type=str2bool, default=False)
     parser.add_argument('--wandb_flag', type=str2bool, default=True)
-    parser.add_argument('--scratch', type=str2bool, default=False)
     parser.add_argument('--resume_iter', type=int, default=0)
     parser.add_argument('--debug', type=bool, default=False)
     parser.add_argument('--wandb_prj_name', type=str, default="CSSR_train_check")
