@@ -47,10 +47,10 @@ def train(args, cfg):
 
     print('Building model...')
     if cfg.MODEL.SR_SEG_INV:
-        model = InvModelWithLoss(cfg, num_train_ds=len(train_loader), resume_iter=args.resume_iter, sr_transforms=sr_transforms).to(device)
+        model = InvModelWithLoss(cfg, num_train_ds=train_size, resume_iter=args.resume_iter, sr_transforms=sr_transforms).to(device)
         print(f'------------Model Architecture-------------\n\n<Network SS>\n{model.segmentation_model}\n\n<Network SR>\n{model.sr_model}')
     else:
-        model = ModelWithLoss(cfg, num_train_ds=len(train_loader), resume_iter=args.resume_iter).to(device)
+        model = ModelWithLoss(cfg, num_train_ds=train_size, resume_iter=args.resume_iter).to(device)
         print(f'------------Model Architecture-------------\n\n<Network SR>\n{model.sr_model}\n\n<Network SS>\n{model.segmentation_model}')
 
     if cfg.MODEL.OPTIMIZER == "Adam":
