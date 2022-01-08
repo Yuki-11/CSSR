@@ -34,6 +34,7 @@ class BoundaryComboLoss(nn.Module):
         
         if self.iter % self.per_epoch == 0 and self.alpha > self.alpha_min and not self.fix_alpha:
             self.alpha -= 0.01 * self.decrease_ratio
+            self.iter = 0
             
         self.iter += 1
 
@@ -75,6 +76,7 @@ class GeneralizedBoundaryComboLoss(nn.Module):
         
         if self.iter % self.per_epoch == 0 and self.alpha > self.alpha_min and not self.fix_alpha:
             self.alpha -= 0.01 * self.decrease_ratio
+            self.iter = 0
             
         self.iter += 1
 
@@ -115,6 +117,7 @@ class Boundary_GDiceLoss(nn.Module):
         
         if self.iter % self.per_epoch == 0 and self.alpha > self.alpha_min and not self.fix_alpha:
             self.alpha -= 0.01 * self.decrease_ratio
+            self.iter = 0
             
         self.iter += 1
 
