@@ -26,7 +26,6 @@ class BoundaryComboLoss(nn.Module):
     def forward(self, predict, target):
         assert predict.shape[0] == target.shape[0], "predict & target batch size don't match"
         predict = predict.clamp(min=self.smooth)
-        # target = target.contiguous().view(target.shape[0], -1)
         
         wbce_dice_loss = self.wbce_dice_loss(predict, target)
         bd_loss = self.bd_loss(predict, target)
@@ -298,7 +297,6 @@ class BCE_DiceLoss(nn.Module):
         assert predict.shape[0] == target.shape[0], "predict & target batch size don't match"
 
         loss = (self.loss_weight[0] * self.bce_loss(predict, target) + self.loss_weight[1] * self.dice_loss(predict, target)) / sum(self.loss_weight)
-        # print("loss", loss.mean())
 
         if self.reduction == 'mean':
             return loss.mean()
