@@ -7,7 +7,6 @@ import numpy as np
 """
 original code: https://github.com/LIVIAETS/boundary-loss
 refarence from: https://github.com/JunMa11/SegWithDistMap
-
 """
 
 class BoundaryLoss(nn.Module):
