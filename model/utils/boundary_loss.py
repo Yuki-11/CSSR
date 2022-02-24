@@ -45,15 +45,13 @@ def compute_sdf1_1(img_gt, out_shape):
              +inf|x-y|; x out of segmentation
     normalize sdf to [-1, 1]
     """
-
     img_gt = img_gt.astype(np.uint8)
-
     normalized_sdf = np.zeros(out_shape)
 
     for b in range(out_shape[0]): # batch size
             # ignore background
         posmask = img_gt[b].astype(np.bool)
-        for c in range(1, out_shape[1]):
+        for c in range(out_shape[1]):
             if posmask.any():
                 negmask = ~posmask
                 posdis = distance(posmask)
@@ -74,14 +72,12 @@ def compute_sdf(img_gt, out_shape):
              -inf|x-y|; x in segmentation
              +inf|x-y|; x out of segmentation
     """
-
     img_gt = img_gt.astype(np.uint8)
-
     gt_sdf = np.zeros(out_shape)
 
     for b in range(out_shape[0]): # batch size
         posmask = img_gt[b].astype(np.bool)
-        for c in range(1, out_shape[1]):
+        for c in range(out_shape[1]):
             if posmask.any():
                 negmask = ~posmask
                 posdis = distance(posmask)
