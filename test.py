@@ -60,7 +60,7 @@ def main():
     parser.add_argument('--test_aiu', type=bool, default=True)
     parser.add_argument('--trained_model', type=str, default=None)
     parser.add_argument('--wandb_flag', type=bool, default=True)
-    parser.add_argument('--wandb_prj_name', type=str, default="CSSR_kyoken_test_blur")
+    parser.add_argument('--wandb_prj_name', type=str, default="CSSR_test")
     
     args = parser.parse_args()
 
