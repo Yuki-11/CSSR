@@ -5,7 +5,7 @@
 <h3 align="center">
  <a href="https://yuki-11.github.io/">Yuki Kondo</a>, <a href="https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/index-j.html">Norimichi Ukita</a>
  <br><a href="https://www.toyota-ti.ac.jp/english/">Toyota Technological Institute (TTI-J)</a>
- <br> in <a href="http://www.mva-org.jp/mva2021/">MVA2021</a> (Oral Presentation, <a href="[http://www.mva-org.jp/mva2021/](http://www.mva-org.jp/archives.BestPracticalPaperAward.php)">Best Practical Paper Award</a>
+ <br> in <a href="http://www.mva-org.jp/mva2021/">MVA2021</a> (Oral Presentation, <a href="http://www.mva-org.jp/archives.BestPracticalPaperAward.php">Best Practical Paper Award</a>)
 </h3>
 
 <h3 align="center">
