@@ -4,17 +4,17 @@
 
 <h3 align="center">
  <a href="https://yuki-11.github.io/">Yuki Kondo</a>, <a href="[https://yuki-11.github.io/](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/index-j.html)">Norimichi Ukita</a>
- <br><a href="https://www.toyota-ti.ac.jp/english/">Toyota Technological Institute (TTI-J)</a><br>
+ <br><a href="https://www.toyota-ti.ac.jp/english/">Toyota Technological Institute (TTI-J)</a>
  <br> in <a href="http://www.mva-org.jp/mva2021/">MVA2021</a> (Oral Presentation, <a href="[http://www.mva-org.jp/mva2021/](http://www.mva-org.jp/archives.BestPracticalPaperAward.php)">Best Practical Paper Award</a>
 </h3>
 
 <h3 align="center">
  <a href="http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf">Paper</a> | <a href="[http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf](https://drive.google.com/drive/folders/1b8E0XjgdstW3tvKdGFAXA4utktgeguNX?usp=sharing)">Data</a>
 </h3>
-<!-- [![Open CSSR in Colab](https://colab.research.google.com/)<br> -->
-  
-🚀 **CSBSR[IEEE TIM'23], an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!** 🚀
 
+<strong align="center">
+🚀 **CSBSR[IEEE TIM'23], an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!** 🚀
+</strong>
 <img src='imgs/results.png'/>
 
 
