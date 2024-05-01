@@ -11,10 +11,15 @@ in [MVA 2021](http://www.mva-org.jp/mva2021/) (Oral Presentation, [Best Practica
 
 <img src='imgs/results.png'/>
 
+<div style="color:white; background-color:#007bff; padding:10px; border-radius:5px;">
+**CSBSR(Crack Segmentation with Blind Super-Resolution) [Y. Kondo and N. Ukita IEEE TIM'23], an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!**
+</div>
+
 ## Our Framework
 <img src='imgs/arc.png'/>
 
 ## News
+* CSBSR[Y. Kondo and N. Ukita IEEE TIM'23], an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!
 * July 27, 2021 -> We received the [Best Practical Paper Award](http://www.mva-org.jp/archives.BestPracticalPaperAward.php) 
 🏆 at [MVA 2021](http://www.mva-org.jp/mva2021/)!
 
