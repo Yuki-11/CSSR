@@ -12,7 +12,7 @@ in [MVA 2021](http://www.mva-org.jp/mva2021/) (Oral Presentation, [Best Practica
 <img src='imgs/results.png'/>
 
 <div style="color:white; background-color:#007bff; padding:10px; border-radius:5px;">
-**CSBSR(Crack Segmentation with Blind Super-Resolution) [Y. Kondo and N. Ukita IEEE TIM'23], an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!**
+**CSBSR, an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!**
 </div>
 
 ## Our Framework
