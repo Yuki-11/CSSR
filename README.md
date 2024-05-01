@@ -2,19 +2,19 @@
  Crack Segmentation for Low-Resolution Images using Joint Learning with Super-Resolution (CSSR)
 </h1>
 <h3 align="center">
- [Paper](http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf) | [Data](https://drive.google.com/drive/folders/1b8E0XjgdstW3tvKdGFAXA4utktgeguNX?usp=sharing)
+ <a href="http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf">Paper</a> | <a href="[http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf](https://drive.google.com/drive/folders/1b8E0XjgdstW3tvKdGFAXA4utktgeguNX?usp=sharing)">Data</a>
 </h3>
 <!-- [![Open CSSR in Colab](https://colab.research.google.com/)<br> -->
 <br>
 
 <h2 align="center">
-[Crack Segmentation for Low-Resolution Images using Joint Learning with Super-Resolution](http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf)<br>
+ <a href="http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf">Crack Segmentation for Low-Resolution Images using Joint Learning with Super-Resolution</a>
 </h2>
+  
 <h3 align="center">
- [Yuki Kondo](https://yuki-11.github.io/)\*<sup>1</sup>,
- [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/index-j.html)\*<sup>1</sup><br>
- \*<sup>1</sup>[Toyota Technological Institute (TTI-J)](https://www.toyota-ti.ac.jp/english/) <br>
-in [MVA 2021](http://www.mva-org.jp/mva2021/) (Oral Presentation, [Best Practical Paper Award](http://www.mva-org.jp/archives.BestPracticalPaperAward.php))
+ <a href="https://yuki-11.github.io/">Yuki Kondo]</a>, <a href="[https://yuki-11.github.io/](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/index-j.html)">Norimichi Ukita</a>
+ <br><a href="https://www.toyota-ti.ac.jp/english/">Toyota Technological Institute (TTI-J)</a><br>
+ <br> in <a href="http://www.mva-org.jp/mva2021/">MVA2021</a> (Oral Presentation, <a href="[http://www.mva-org.jp/mva2021/](http://www.mva-org.jp/archives.BestPracticalPaperAward.php)">Best Practical Paper Award</a>
 </h3>
 
 🚀 **CSBSR[IEEE TIM'23], an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!** 🚀
