@@ -11,16 +11,21 @@
 <h3 align="center">
  <a href="https://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf">Paper</a> | <a href="[http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf](https://drive.google.com/drive/folders/1b8E0XjgdstW3tvKdGFAXA4utktgeguNX?usp=sharing)">Data</a>
 </h3>
-
-<strong align="center">
+<div align="center">
+<strong>
 🚀 CSBSR[IEEE TIM'23], an advanced version of CSSR, has been released! Click <a href="https://github.com/Yuki-11/CSBSR">here</a> for details! 🚀
 </strong>
-<img src='imgs/results.png'/>
+</div>
 
+<div align="center">
+<img src='imgs/results.png'>
+</div>
 
 
 ## Our Framework
+<div align="center">
 <img src='imgs/arc.png'/>
+</div>
 
 ## News
 * May 1, 2024 -> CSBSR[Y. Kondo and N. Ukita IEEE TIM'23], an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!
