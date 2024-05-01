@@ -3,6 +3,9 @@
 <!-- [![Open CSSR in Colab](https://colab.research.google.com/)<br> -->
 <br>
 
+🚀 **CSBSR[IEEE TIM'23], an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!** 🚀
+
+
 [Crack Segmentation for Low-Resolution Images using Joint Learning with Super-Resolution](http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf)<br>
  [Yuki Kondo](https://yuki-11.github.io/)\*<sup>1</sup>,
  [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/index-j.html)\*<sup>1</sup><br>
@@ -11,15 +14,13 @@ in [MVA 2021](http://www.mva-org.jp/mva2021/) (Oral Presentation, [Best Practica
 
 <img src='imgs/results.png'/>
 
-<div style="color:white; background-color:#007bff; padding:10px; border-radius:5px;">
-**CSBSR, an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!**
-</div>
+
 
 ## Our Framework
 <img src='imgs/arc.png'/>
 
 ## News
-* CSBSR[Y. Kondo and N. Ukita IEEE TIM'23], an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!
+* May 1, 2024 -> CSBSR[Y. Kondo and N. Ukita IEEE TIM'23], an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!
 * July 27, 2021 -> We received the [Best Practical Paper Award](http://www.mva-org.jp/archives.BestPracticalPaperAward.php) 
 🏆 at [MVA 2021](http://www.mva-org.jp/mva2021/)!
 
