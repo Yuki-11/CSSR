@@ -9,11 +9,11 @@
 </h3>
 
 <h3 align="center">
- <a href="http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf">Paper</a> | <a href="[http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf](https://drive.google.com/drive/folders/1b8E0XjgdstW3tvKdGFAXA4utktgeguNX?usp=sharing)">Data</a>
+ <a href="https://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf">Paper</a> | <a href="[http://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf](https://drive.google.com/drive/folders/1b8E0XjgdstW3tvKdGFAXA4utktgeguNX?usp=sharing)">Data</a>
 </h3>
 
 <strong align="center">
-🚀 **CSBSR[IEEE TIM'23], an advanced version of CSSR, has been released! Click [here](https://github.com/Yuki-11/CSBSR) for details!** 🚀
+🚀 CSBSR[IEEE TIM'23], an advanced version of CSSR, has been released! Click <a href="https://github.com/Yuki-11/CSBSR">here</a> for details! 🚀
 </strong>
 <img src='imgs/results.png'/>
 
