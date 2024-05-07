@@ -9,7 +9,7 @@
 </h3>
 
 <h3 align="center">
- <a href="https://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf">Paper</a> | <a href="https://drive.google.com/drive/folders/1b8E0XjgdstW3tvKdGFAXA4utktgeguNX?usp=sharing">Data</a>
+ <a href="https://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf">Paper</a> | <a href="https://drive.google.com/drive/folders/1b8E0XjgdstW3tvKdGFAXA4utktgeguNX?usp=sharing">Data</a> | <a href="https://yuki-11.github.io/CSBSR-project-page/#cssr">Project Page</a>
 </h3>
 <div align="center">
 <strong>
