@@ -16,7 +16,9 @@
 🚀 <span style="color: red"> CSBSR [IEEE TIM'23], an advanced version of CSSR, has been released!</span> Click <a href="https://github.com/Yuki-11/CSBSR">here</a> for details! 🚀
 </strong>
 </div>
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/crack-segmentation-for-low-resolution-images/crack-segmentation-on-khanhha-s-dataset-4x)](https://paperswithcode.com/sota/crack-segmentation-on-khanhha-s-dataset-4x?p=crack-segmentation-for-low-resolution-images) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/crack-segmentation-for-low-resolution-images/crack-segmentation-on-khanhha-s-dataset-4x-1)](https://paperswithcode.com/sota/crack-segmentation-on-khanhha-s-dataset-4x-1?p=crack-segmentation-for-low-resolution-images)
+
 <br>
 
 <div align="center">
