@@ -13,7 +13,7 @@
 </h3>
 <div align="center">
 <strong>
-🚀 <font color="red">CSBSR [IEEE TIM'23], an advanced version of CSSR, has been released!</font> Click <a href="https://github.com/Yuki-11/CSBSR">here</a> for details! 🚀
+🚀 <span style="color: red"> CSBSR [IEEE TIM'23], an advanced version of CSSR, has been released!</span> Click <a href="https://github.com/Yuki-11/CSBSR">here</a> for details! 🚀
 </strong>
 </div>
 <br>
