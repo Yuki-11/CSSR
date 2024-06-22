@@ -10,12 +10,11 @@
 
 <h3 align="center">
  <a href="https://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf">Paper</a> | <a href="https://drive.google.com/drive/folders/1b8E0XjgdstW3tvKdGFAXA4utktgeguNX?usp=sharing">Data</a> | <a href="https://yuki-11.github.io/CSBSR-project-page/#cssr">Project Page</a>
-</h3>
-<div align="center">
+
 <strong>
-🚀 <span style="color: red"> CSBSR [IEEE TIM'23], an advanced version of CSSR, has been released!</span> Click <a href="https://github.com/Yuki-11/CSBSR">here</a> for details! 🚀
+🚀 <span style="color: red"> CSBSR [IEEE TIM'24], an advanced version of CSSR, has been released!</span> Click <a href="https://github.com/Yuki-11/CSBSR">here</a> for details! 🚀
 </strong>
-</div>
+</h3>
 <br>
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/crack-segmentation-for-low-resolution-images/crack-segmentation-on-khanhha-s-dataset-4x)](https://paperswithcode.com/sota/crack-segmentation-on-khanhha-s-dataset-4x?p=crack-segmentation-for-low-resolution-images) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/crack-segmentation-for-low-resolution-images/crack-segmentation-on-khanhha-s-dataset-4x-1)](https://paperswithcode.com/sota/crack-segmentation-on-khanhha-s-dataset-4x-1?p=crack-segmentation-for-low-resolution-images)
