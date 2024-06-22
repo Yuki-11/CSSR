@@ -12,7 +12,7 @@
  <a href="https://www.mva-org.jp/Proceedings/2021/papers/O1-1-2.pdf">Paper</a> | <a href="https://drive.google.com/drive/folders/1b8E0XjgdstW3tvKdGFAXA4utktgeguNX?usp=sharing">Data</a> | <a href="https://yuki-11.github.io/CSBSR-project-page/#cssr">Project Page</a>
 <br><br>
 <strong>
-🚀 <span style="color: red"> CSBSR [IEEE TIM'24], an advanced version of CSSR, has been released!</span> Click <a href="https://github.com/Yuki-11/CSBSR">here</a> for details! 🚀
+🚀 <span style="color: red"> <a href="https://github.com/Yuki-11/CSBSR">CSBSR [IEEE TIM'24]</a>, an advanced version of CSSR, has been released!🚀
 </strong>
 </h3>
 <br>
